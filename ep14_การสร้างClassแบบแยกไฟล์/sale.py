@@ -1,3 +1,5 @@
+from employee import Employee
+
 class Sale(Employee):
     __departmentName = "ฝ่ายขายสินค้า"
     def __init__(self,name,salary,area):

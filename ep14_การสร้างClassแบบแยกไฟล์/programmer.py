@@ -1,4 +1,6 @@
-class Programmar(Employee):
+from employee import Employee
+
+class Programmer(Employee):
     __departmentName = "แผนกพัฒนาระบบ"
     def __init__(self,name,salary,experience,skill):
         super().__init__(name,salary,self.__departmentName)

@@ -1,3 +1,5 @@
+from employee import Employee
+
 class Accounting(Employee):
     __departmentName = "แผนกบัญชี"
     def __init__(self,name,salary,age):
